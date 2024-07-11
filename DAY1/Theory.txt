@@ -6,3 +6,4 @@
 --> Java are typed languages.for ex- before you declare a variables use types.
 --> in java ,points value by default taking double  ,thats why i am using (f) which is type conversion.
 --> in generally byte and short are very less for use.
+--> comments are use only for user can see not working that things.
