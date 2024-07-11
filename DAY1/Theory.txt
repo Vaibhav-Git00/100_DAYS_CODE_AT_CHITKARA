@@ -1,0 +1,8 @@
+------------>>_________________________________________________________________<<-----------
+
+--> In java all the variables are store in memory.And it has represent as a blocks.
+--> The blocks are present in the memory are the unique address.
+-->IN Java , there are two types of data types--> which is primitive or non-primitive.
+--> Java are typed languages.for ex- before you declare a variables use types.
+--> in java ,points value by default taking double  ,thats why i am using (f) which is type conversion.
+--> in generally byte and short are very less for use.
