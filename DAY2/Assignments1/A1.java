@@ -18,6 +18,7 @@ public class A1 {
         }
         System.out.println(even_sum);
         System.out.println(odd_sum);
+        sc.close();
 
     }
 }
