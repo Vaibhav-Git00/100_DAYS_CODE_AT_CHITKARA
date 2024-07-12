@@ -24,6 +24,7 @@ public class A4 {
                 break;
         
         }
+        sc.close();
         
     }
 }

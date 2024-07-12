@@ -20,5 +20,6 @@ public class A2 {
         default: System.out.println("wrong operator");
             break;
     }
+    sc.close();
  }   
 }

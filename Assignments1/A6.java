@@ -12,6 +12,7 @@ public class A6 {
         System.out.println(total);
         System.out.println(tax);
         System.out.println("encluding gst 18%: "+ (total + tax));
+        sc.close();
 
     }    
 }

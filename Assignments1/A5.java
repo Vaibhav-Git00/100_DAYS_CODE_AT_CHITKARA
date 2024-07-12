@@ -15,5 +15,6 @@ public class A5 {
         else{
             System.out.println(year+" is not a leapyear");
         }
+        sc.close();
     }
 }

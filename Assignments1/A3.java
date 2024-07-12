@@ -13,5 +13,6 @@ public class A3 {
         else{
             System.out.println("positive");
         }
+        sc.close();
     }
 }
