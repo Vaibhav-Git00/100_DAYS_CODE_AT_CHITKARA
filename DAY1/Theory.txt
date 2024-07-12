@@ -24,3 +24,11 @@ ________________TYPE PROMOTION____________________
 -->second : suppose apke pass data types hai -- double , llong, float these all are converted into big datatypes between them which is double.
 --> this this will be use only when the expression present 
 --> by default java changes these two things automatically.
+
+__________________OPERATORS__________________________
+--> Arithmetic Operators: Addition (+), Subtraction(-), Multiplication(*), Division(/), Modulus(%)
+--> Unary Operators: Unary Plus(+), Unary Minus(-), Increment(++), Decrement(--), Logical Complement(!)
+    Post Increment: (a++)--> Return value of a and then increment it
+    Pre Increment: (a--)--> Increment value of a and then return its new value.
+--> Relational Operators: Is Equal to(==), Not Equal to(!=), Greater than(>), Less than(<), Greater than equal to     (>=), Less than equal to(<=)
+--> Logical Operators: Logical And(&&), Logical Or(||), Logical Not(!)
