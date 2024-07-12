@@ -7,6 +7,7 @@
 --> in java ,points value by default taking double  ,thats why i am using (f) which is type conversion.
 --> in generally byte and short are very less for use.
 --> comments are use only for user can see not working that things.
+--> Identifier rule says,identifiers can start with any alphabet or underscore (“_”) or dollar (“$”).According to the rule the given variable name is a valid identifir.
 
 __________TYPE CONVERSION________________
 --> destination is greater than source value
@@ -32,3 +33,13 @@ __________________OPERATORS__________________________
     Pre Increment: (a--)--> Increment value of a and then return its new value.
 --> Relational Operators: Is Equal to(==), Not Equal to(!=), Greater than(>), Less than(<), Greater than equal to     (>=), Less than equal to(<=)
 --> Logical Operators: Logical And(&&), Logical Or(||), Logical Not(!)
+
+________________if-else______________________________
+If statement: if(condition){//code}
+If-else statement: if(condition){//code}else{//code}
+If-else if-else statement: if(condition){//code}else if(condition){//code}else{//code}
+Nested if-else statement: if-else statements inside if-else statement
+Conditional Operators: Logical And(&&), Logical Or(||), 
+Ternary:---> variable = condition ? statement 1: statement 2;
+Switch statement: switch(expression){case x: //code break; case y: //code break; default: //code}
+--> Always remember one thing in switch case (jo variable ki value hoti hai ,woh har case se compare hoti hai)
