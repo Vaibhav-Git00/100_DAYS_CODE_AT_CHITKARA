@@ -13,5 +13,7 @@ public class input {
 
         Float input3 = sc.nextFloat();
         System.out.println(input3);
+        sc.close();
     }
+    
 }

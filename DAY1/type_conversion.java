@@ -5,5 +5,6 @@ public class type_conversion {
         Scanner sc= new Scanner(System.in);
         float a = sc.nextInt();
         System.out.println(a);
+        sc.close();
     }
 }

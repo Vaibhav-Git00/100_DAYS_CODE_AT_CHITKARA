@@ -19,6 +19,7 @@ public class income_tax_calculator {
             System.out.println(tax);
             
         }
+        sc.close();
     }
     
 }

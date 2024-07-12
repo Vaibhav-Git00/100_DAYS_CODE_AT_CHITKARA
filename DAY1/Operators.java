@@ -56,6 +56,7 @@ public class Operators {
         b-=1;
         System.out.println(a);
         System.out.println(b);
+        sc.close();
 
     }
 }

@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class type_promotion {
     public static void main(String[] args) {
         // byte a= 2;
@@ -12,6 +12,7 @@ public class type_promotion {
         double c = 987.00;
         long sum= (long)(a+b+c);
         System.out.println(sum);
+        
         
     }
 }

@@ -6,5 +6,6 @@ public class product {
         int b= sc.nextInt();
         int pro= a*b;
         System.out.println(pro);
+        sc.close();
     }
 }

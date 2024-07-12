@@ -9,6 +9,7 @@ public class type_casting {
         char name= 'a';
         int number= name;
         System.out.println(number);
+        sc.close();
 
         
     }

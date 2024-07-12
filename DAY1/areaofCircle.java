@@ -7,5 +7,6 @@ public class areaofCircle {
         int radius= sc.nextInt();
         Float Area= pie*radius*radius;
         System.out.println(Area);
+        sc.close();
     }
 }
