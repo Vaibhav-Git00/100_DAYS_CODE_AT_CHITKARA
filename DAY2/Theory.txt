@@ -1,0 +1,10 @@
+_______________Conditional statements_______________________
+
+Loops/Iterative statements are used for repetition.
+Types of Loops: While, For, Do-While
+While Loop: while(condition){//code}
+Loop variable: i, j, k, etc.
+For Loop: for(init statement; condition; expression){//code}
+Break Keyword: allows you to terminate and exit a loop (do while/for/while) or switch commands from any point other than the logical end.
+Do-While Loop: do{//code}while(condition);
+Continue KeywordL allows you to skip an iteration
