@@ -1,0 +1,7 @@
+
+
+
+______________________function overloading_____________________
+--> multiple funtion with the same name but different parameters.
+--> overloading using parameters ,for ex - there are two function which has unique name and 1st funct pass 2 parameters and 2nd one passes 3 parameters.
+--> overloading using datatypes, for ex- there are two function which has unique name and 1st fuct has return type int and 2nd one is float.
