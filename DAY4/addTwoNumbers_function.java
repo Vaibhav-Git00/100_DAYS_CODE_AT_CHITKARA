@@ -34,5 +34,6 @@ public class addTwoNumbers_function {
         int b=sc.nextInt();
         int sum=sum(a,b);
         System.out.println("sum is = "+ sum);   
+        sc.close();
     }
 }
