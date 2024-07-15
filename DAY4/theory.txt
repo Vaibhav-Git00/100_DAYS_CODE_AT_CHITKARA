@@ -1,7 +1,44 @@
+_______________________function______________________________
+-->Function: Logical set of code which performs a specific task
+-->We can pass inputs in functions which are called Parameters and whatever we get the output from it, its datatype is called Return DataType.
+-->Imporrtance: Increases reusability of code, DRY principle (Don't Repeat Yourself), easy to read
+-->Types of Functions: (1) User Defined (2) Built-In
+-->(1) User Defined Functions: return_type function_name(parameter1, parameter2,...){statements;}
+-->Function Name: should depict function's functionality
+-->Return Type: necessary to mention return
+-->Parameters: mention their datatype, separated by commas, allows multiple functions with same name but different datatype
+-->Function Body: Contains code of the task performed by function
+-->Calling of a Function: Call inside main function, write name, followed by ();
+-->Functions should be defined above main() function.
+-->Function Prototype: For defining a function after function call (Example: int add(int, int);)
+-->(2) Built-In/ Standard Library Functions: Already defined
+-->Example: pow(a,b), sqrt(a,b)
 
 
+
+-->Scope of Variable: A part of program from where a variable is accessible.
+-->Local Variable: declared inside a function
+-->Global Variable: exist throughout the entire program
+-->Local Variable precedence is more than that of Global Variable.
+-->Scope resolution operator: :: (helps to access global variable from a function which contains same name local variable as of global variable)
+-->Formal Parameters: passed in function definition
+-->Actual Parameters: passed during function call
+-->Pass by Value: Parameter values are copied to another values
+-->Pass by Reference: Parameter values are passed themselves (& operator is used: allows to use alias name of variable)
+-->Default Parameter: We can give default values to a function during definition which can get executed if no other value is given to variable passed, by default.
 
 ______________________function overloading_____________________
 --> multiple funtion with the same name but different parameters.
 --> overloading using parameters ,for ex - there are two function which has unique name and 1st funct pass 2 parameters and 2nd one passes 3 parameters.
 --> overloading using datatypes, for ex- there are two function which has unique name and 1st fuct has return type int and 2nd one is float.
+
+
+______________________NUMBER SYSTEM_____________________________
+-->Number System: helps to represent a number using different forms and base values
+-->Base Value 10: 0-9 digits and powers of 10 (Decimal Number System)
+-->Example: 524 = 5 * 10^2 + 2 * 10^1 + 4 * 10^0
+-->Base Value 2: 0, 1 digits and powers of 2 (Binary Number System)
+-->Example: 1010 = 1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 0 * 2^0 = 10
+-->Base Value 16: 0-9 digits, A-F alphabets and powers of 16 (Hexadecimal Number System)
+-->Example: 4A5C = 4 * 16^3 + 10 * 16^2 + 5 * 16^1 + 12 * 16^0
+-->parity digit = n%2
