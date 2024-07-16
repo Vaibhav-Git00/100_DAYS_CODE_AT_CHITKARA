@@ -1,3 +1,4 @@
+package ASSIGNMENTS;
 import java.util.Scanner;
 
 public class sumofdigit {
