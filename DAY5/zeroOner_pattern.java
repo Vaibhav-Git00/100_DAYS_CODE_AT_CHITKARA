@@ -1,17 +1,20 @@
 // 1 
-// 2 3 
-// 4 5 6 
-// 7 8 9 10 
-// 11 12 13 14 15 
+// 0 1 
+// 1 0 1 
+// 0 1 0 1 
+// 1 0 1 0 1 
 
-import java.util.*;
-public class floyds_pattern {
+import java.util.Scanner;
+public class zeroOner_pattern {
     public static void pattern(int n){
-        int counter=1;
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
-                System.out.print(counter+" ");
-                counter++;
+                if((i+j)%2==0){
+                    System.out.print("1 ");
+                }
+                else{
+                    System.out.print("0 ");
+                }
             }
             System.out.println();
         }
@@ -20,7 +23,6 @@ public class floyds_pattern {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         pattern(n);
-        sc.close();
-        
+        sc.close(); 
     }
 }
