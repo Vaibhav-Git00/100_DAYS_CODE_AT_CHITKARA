@@ -1,6 +1,11 @@
+//12345
+//1234
+//123
+//12
+//1
+
+
 import java.util.Scanner;
-
-
 public class invertedHalf_pattern {
     public static void pattern(int n){
         for(int i=1;i<=n;i++){

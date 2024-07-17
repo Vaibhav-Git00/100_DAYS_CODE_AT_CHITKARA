@@ -1,3 +1,11 @@
+// * * * * * 
+// *       * 
+// *       * 
+// *       * 
+// * * * * * 
+
+
+
 import java.util.*;
 public class hollow_rectangle {
     public static void pattern(int n){
