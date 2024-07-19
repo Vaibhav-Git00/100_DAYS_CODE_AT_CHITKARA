@@ -1,0 +1,15 @@
+____________________ARRAY____________________
+-->Array: Data Structure which stores a collection of homogeneous items(of same type like: int, char, bool)
+-->Represented as a block of memory divided into more blocks. Length of array = number of inside blocks
+-->Index: Tells about location of every element in array (starts with 0)
+-->Array Declaration: data_type array_name [arraysize]
+-->Contiguous Memory Allocation: elements are stores in consecutive blocks of memory
+-->Let address of 1st element = x
+-->Address of 2nd element = x + Lengthofelement
+-->Array Types: Single dimensional or 1-D array and Multidimensional array
+-->Accessing elements in Single dimensional array: 0 based indexing
+-->Index of last element = lengthofarray - 1
+
+
+--> linear search- linear search is always work on when we finding value of particular index number.
+--> BINARY SEARCH- binary search is always applied for sorted array, if they are in increasing order or decreasing order.
