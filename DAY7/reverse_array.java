@@ -1,5 +1,3 @@
-
-
 public class reverse_array {
     public static int reverse(int arr[]){
         int start=0,end=arr.length-1;
