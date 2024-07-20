@@ -1,3 +1,6 @@
+//Brute force method means simple logic based.
+
+
 public class maxsubArray {
     public static void sub(int arr[]){
         int sum=0;
