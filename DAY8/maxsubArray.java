@@ -1,5 +1,5 @@
 //Brute force method means simple logic based.
-
+//time complexity 0(3n)
 
 public class maxsubArray {
     public static void sub(int arr[]){

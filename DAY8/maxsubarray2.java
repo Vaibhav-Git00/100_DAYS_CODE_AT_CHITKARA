@@ -1,4 +1,5 @@
 //prefix sum optimise method
+//time complexity 0(2n)
 
 public class maxsubarray2 {
     public static void maxsub(int arr[]){
