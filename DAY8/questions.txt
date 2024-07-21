@@ -1,0 +1,5 @@
+step 1: array ka sum
+step 2: compare karo maximum se
+step 3: phir agar sum is less than 0 hua toh , sum ki value 0 karo
+step 4: and agar empty set hua toh means array ke andar sara element negative hua toh usko sum last me bi negative hoga toh hame waha 0 print nhi krna hai .
+step 5: to sum ko  har ek array ke element se compare kr lo. 
