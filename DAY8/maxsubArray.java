@@ -30,7 +30,9 @@
     //     return max;
 
     
-//0(n)
+//time complexity 0(n)
+//space complexity 0(1)
+
 
 public class maxsubArray {
     public static int sub(int[] arr) {
