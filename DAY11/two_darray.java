@@ -14,7 +14,7 @@ public class two_darray {
     }
     public static void main(String[] args) {
         int arr[][]=new int[3][3];
-        int n=arr.length,m=arr[0].length;
+        int n=arr.length,m=arr.length;
         Scanner sc=new Scanner(System.in);
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
