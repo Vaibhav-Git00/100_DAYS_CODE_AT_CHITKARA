@@ -1,4 +1,4 @@
-import java.util.*;
+
 
 public class string {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class string {
         String secondletter="kesharwani";
         String combine=firstletter + " " + secondletter;    //concanating of two string with the help of '+'.
         System.out.println(combine);
-
+        
         
     }
    
