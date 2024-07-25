@@ -20,7 +20,7 @@ public class shortestpath {
         }
         int X=x*x;
         int Y=y*y;
-        return (float)Math.sqrt(X+Y);
+        return (float)Math.sqrt(X+Y);  
 
     }
     public static void main(String[] args) {
@@ -29,3 +29,4 @@ public class shortestpath {
 
     }
 }
+
