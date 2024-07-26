@@ -1,5 +1,4 @@
 
-
 public class shortestpath {
     public static float shortest(String charr){
         int x=0;
