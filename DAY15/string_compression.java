@@ -23,3 +23,5 @@ public class string_compression {
         
     }
 }
+
+//note jab bhi ham stringbuilder ka use krte hai toh ham waha char ko append ki help se dalte haiii
