@@ -3,7 +3,7 @@ public class string_compression {
     public static String compress(String str){
         StringBuilder sb=new StringBuilder();
         for(int i=0;i<str.length();i++){
-            Integer count=1;
+            Integer count=1;  //yaha pr ham bade integer ka isliye use kiye hai kyuki hame integer ko string banana tha toh isliye ham integer ko uski class me likhe haii
             while (i<str.length()-1 && str.charAt(i)==str.charAt(i+1)) {
                 count++;
                 i++;
