@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class oops_concept {
+public class string_funnctionn {
     public static void main(String[] args) {
         String s = "1 box has 3 blue 4 red 6 green and 12 yellow marbles";
         String num = s.replaceAll("[a-zA-Z]", " ").replaceAll("\\s+", " ").trim(); 
