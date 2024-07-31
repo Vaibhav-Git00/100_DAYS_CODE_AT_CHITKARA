@@ -1,5 +1,5 @@
 public class factorial {
-    public static int  factori(int n){
+    public static int factori(int n){
         if(n==1){
             return 1;
         }
