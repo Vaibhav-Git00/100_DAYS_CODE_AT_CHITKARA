@@ -1,4 +1,3 @@
-
 public class remove_duplicate_string {
     public static void remove(String str, int idx, StringBuilder newstr, boolean map[]){
         if(idx==str.length()){
