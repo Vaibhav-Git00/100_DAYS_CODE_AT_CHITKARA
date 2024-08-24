@@ -35,6 +35,7 @@ public class d_arrar_list {
         mainlist.add(list1);
         mainlist.add(list2);
         mainlist.add(list3);
+        System.out.println(mainlist);
 
         for(int i=0;i<mainlist.size();i++){
             ArrayList<Integer> currlist= mainlist.get(i);
