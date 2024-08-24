@@ -1,3 +1,5 @@
+
+
 import java.util.*;
 public class sum_1 {
     // public static int[] sum(ArrayList<Integer> number,int target){
@@ -11,6 +13,7 @@ public class sum_1 {
     //     return new int []{-1,-1};
     // }
     //2-pointer optimise way
+    //this is onlly for sorted array
     public static boolean checkpairsum(ArrayList<Integer> list,int target){
         int lp=0;
         int rp=list.size()-1;
