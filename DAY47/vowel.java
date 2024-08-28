@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class vowel {
     public static long countVowels(String word) {
         long n = word.length();
         long sum = 0;
