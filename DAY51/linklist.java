@@ -45,7 +45,7 @@ public class linklist {
             return;
         }
         Node temp=head;   //while if apply any type of algorithum this can use only temp because head and tail has not will be changed
-        while (temp!=null) {
+        while (temp!=null) {    //tc=o(n) linear time
             System.out.print(temp.data+" ");
             temp=temp.next;
         }
