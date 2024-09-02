@@ -1,6 +1,3 @@
-import java.util.LinkedList;
-import java.util.*;
-
 public class linklist {
     public static class Node {   //this is the informataion of node class
         int data;
