@@ -11,7 +11,7 @@ public class linklist {
     public static Node head;
     public static Node tail;
 
-
+    //add first
     public void addfirst(int data){
         //step-1 create a new node
         Node newnode=new Node(data);  //data is your constructor
@@ -29,6 +29,8 @@ public class linklist {
     }
     //both the complexity are 0(1) constant time lag rha haiii
 
+
+    //add last
     public void addlast(int data){
         Node newnode=new Node(data);
         if(head==null){

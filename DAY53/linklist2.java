@@ -1,4 +1,4 @@
-public class linklist1 {
+public class linklist2 {
     public static class Node {   //this is the informataion of node class
         int data;
         Node next;    //this is next refrence of the next node
@@ -10,11 +10,13 @@ public class linklist1 {
     //constructor
     public static Node head;
     public static Node tail;
+    public static int size;
 
 
     public void addfirst(int data){
         //step-1 create a new node
         Node newnode=new Node(data);  //data is your constructor
+        size++;
         if(head==null){
             head=tail=newnode;
             return;
@@ -31,6 +33,7 @@ public class linklist1 {
 
     public void addlast(int data){
         Node newnode=new Node(data);
+        size++;
         if(head==null){
             head=tail=newnode;
             return;
@@ -59,6 +62,7 @@ public class linklist1 {
             return;
         }
         Node newnode=new Node(data);
+        size++;
         Node temp=head;
         int i=0;
         while(i<idx-1){
@@ -68,13 +72,17 @@ public class linklist1 {
         newnode.next=temp.next;
         temp.next=newnode;
     }
+
+
+
     public static void main(String[] args) {
-        linklist1 ll=new linklist1();
+        linklist2 ll=new linklist2();
         ll.addfirst(2);
         ll.addfirst(1);
         ll.addlast(3);
         ll.addlast(4);
         ll.add(2, 9);
         ll.print();
+        System.out.println(ll.size);
     }
 }
