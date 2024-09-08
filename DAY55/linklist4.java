@@ -1,6 +1,7 @@
+
 //first of all create a one class and define a specifix variable
 
-public class linklist2 {
+public class linklist4 {
     public static class Node {   //this is the informataion of node class
         int data;
         Node next;    //this is next refrence of the next node
@@ -74,17 +75,66 @@ public class linklist2 {
         newnode.next=temp.next;
         temp.next=newnode;
     }
+    //remove first
+    public int removeFirst(){
+        if(size==0){
+            System.out.println("ll is empty");
+            return Integer.MIN_VALUE;
+        }
+        else if (size==1) {
+            int var=head.data;
+            head=tail=null;
+            return var;
+            
+        }
+        int var=head.data;  //It stores the data from the first node (the head) of the linked list in the variable var.
+        head=head.next;
+        size--;
+        return var;      //It returns the data of the removed node.
+    }
 
 
+    //remove tail
+    public int removelast(){
+        if(size==0){
+            System.out.println("ll is empty");
+            return Integer.MIN_VALUE;
+        }
+        else if(size==1){
+            int var=head.data;
+            head=tail=null;
+            size=0;
+            return var;
+        }
+        Node prv=head;
+        for(int i=0;i<size-2;i++){
+            prv=prv.next;
+        }
+
+        int val=prv.next.data;
+        prv.next=null;
+        tail=prv;
+        size--;
+        return val;
+    }
 
     public static void main(String[] args) {
-        linklist2 ll=new linklist2();
+        linklist4 ll=new linklist4();
         ll.addfirst(2);
         ll.addfirst(1);
         ll.addlast(3);
         ll.addlast(4);
         ll.add(2, 9);
         ll.print();
-        System.out.println(ll.size);
+        // System.out.println(ll.size);
+        ll.removeFirst();
+        ll.print();
+
+        ll.removelast();
+        ll.print();
+        System.out.println(size);
+
+
     }
 }
+
