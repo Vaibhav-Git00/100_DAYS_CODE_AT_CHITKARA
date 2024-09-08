@@ -51,12 +51,24 @@ public class linklist1 {
         }
         System.out.println();
     }
+    public void add(int idx,int data){
+        Node newnode=new Node(data);
+        Node temp=head;
+        int i=0;
+        while(i<idx-1){
+            temp=temp.next;
+            i++;
+        }
+        newnode.next=temp.next;
+        temp.next=newnode;
+    }
     public static void main(String[] args) {
         linklist1 ll=new linklist1();
         ll.addfirst(2);
         ll.addfirst(1);
         ll.addlast(3);
         ll.addlast(4);
+        ll.add(2, 9);
         ll.print();
     }
 }
