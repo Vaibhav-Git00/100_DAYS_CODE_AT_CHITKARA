@@ -1,7 +1,7 @@
 
 //first of all create a one class and define a specifix variable
 
-public class linklist4 {
+public class linklist5 {
     public static class Node {   //this is the informataion of node class
         int data;
         Node next;    //this is next refrence of the next node
@@ -118,8 +118,21 @@ public class linklist4 {
         return val;
     }
 
+    public int iterativeSearch(int key){
+        Node temp=head;
+        int i=0;
+        while(temp!=null){
+            if(temp.data==key){
+                return i;
+            }
+            temp=temp.next;
+            i++;
+        }
+        return -1; //if key is not foundd
+    }
+
     public static void main(String[] args) {
-        linklist4 ll=new linklist4();
+        linklist5 ll=new linklist5();
         ll.addfirst(2);
         ll.addfirst(1);
         ll.addlast(3);
@@ -133,6 +146,11 @@ public class linklist4 {
         ll.removelast();
         ll.print();
         System.out.println(size);
+
+        System.out.println(ll.iterativeSearch(3));
+        System.out.println(ll.iterativeSearch(10));
+
+
     }
 }
 
