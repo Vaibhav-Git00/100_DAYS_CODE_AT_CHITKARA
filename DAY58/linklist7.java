@@ -1,7 +1,7 @@
 
 //first of all create a one class and define a specifix variable
 
-public class linklist6 {
+public class linklist7 {
     public static class Node {   //this is the informataion of node class
         int data;
         Node next;    //this is next refrence of the next node
@@ -131,10 +131,29 @@ public class linklist6 {
         return -1; //if key is not foundd
     }
 
-    //iteration with recursion it should be pending until gaurab will not come 
+
+    //iteration reverse
+    public void reverse(){
+        if(size<2){
+            return;
+        }
+        Node prev=null;
+        Node prese=head;
+        Node next=prese.next;
+
+        while (prese!=null) {
+            prese.next=prev;
+            prev=prese;
+            prese=next;
+            if(next!=null){
+                next=next.next;
+            }
+            head=prev;            
+        }
+    }
 
     public static void main(String[] args) {
-        linklist6 ll=new linklist6();
+        linklist7 ll=new linklist7();
         ll.addfirst(2);
         ll.addfirst(1);
         ll.addlast(3);
@@ -151,6 +170,9 @@ public class linklist6 {
 
         System.out.println(ll.iterativeSearch(3));
         System.out.println(ll.iterativeSearch(10));
+
+        ll.reverse();
+        ll.print();
 
 
     }
